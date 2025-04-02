@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sectionTitle {
+    @apply text-4xl font-semibold text-center text-blue-900 mb-8;
+  }
+  .sectionNew {
+    @apply max-w-max m-auto md:pl-20 p-4 py-8;
+  }
+}
